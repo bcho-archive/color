@@ -1,0 +1,65 @@
+html {
+    background: url("../images/bg.png");
+}
+
+body,
+p,
+h3 {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#main_content {
+    margin: 100px 0;
+}
+
+.row {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.name_content h3 {
+    display: block;
+    position: relative;
+    font-size: 1.7em;
+    top: 55px;
+    left: -40px;
+    color: #2b2b2b;
+    text-align: right;
+    text-shadow: 1px 1px 0 rgba(43, 43, 43, 0.4);
+    font-weight: normal;
+    -webkit-transition-duration: .7s;
+}
+
+.row:hover .name_content h3 {
+    color: #fefefe;
+}
+
+
+.name_content:after {
+    display: block;
+    position: relative;
+    top: 25px;
+    left: 110px;
+    font-size: 9em;
+    content: "{";
+    color: #868686;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.color_box_wrapper {
+    height: 140px;
+    border-bottom-right-radius: 17px;
+    box-shadow: 0 1px 0 rgba(43, 43, 43, 0.1);
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(255,255,255,0.45)));
+}
+
+.color_box_content {
+    color: #fefefe;
+    display: block;
+    position: relative;
+    font-size: 1.7em;
+    top: 105px;
+    left: 32px;
+    margin: 5px 10px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}

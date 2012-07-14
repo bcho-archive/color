@@ -30,6 +30,7 @@ a {
     text-shadow: 1px 1px 0 rgba(43, 43, 43, 0.4);
     font-weight: normal;
     -webkit-transition-duration: .7s;
+    -moz-transition-duration: .7s;
 }
 
 .row:hover .name_content h3 a {
@@ -61,7 +62,25 @@ a {
     position: relative;
     font-size: 1.7em;
     top: 105px;
-    left: 32px;
+    right: 5px;
     margin: 5px 10px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    text-align: right;
+}
+
+#about .promote {
+    top: 20px;
+}
+
+#about a {
+    -webkit-transition-duration: .7s;
+    -moz-transition-duration: .7s;
+}
+
+#about span {
+    color: #d64551;
+}
+
+#about a:hover {
+    color: #d64551;
 }

@@ -1,6 +1,7 @@
 <?php
 require_once('crawler/model.php');
 
+header('Access-Control-Allow-Origin: *');
 header('Content-type: application/json');
 
 if (isset($_GET['limit']))

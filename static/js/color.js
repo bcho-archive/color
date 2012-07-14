@@ -1,6 +1,6 @@
 (function()
 {
-    var url = "http://localhost/color/color.php?limit=15";
+    var url = "http://ilovemycolor.sinaapp.com/color.php?limit=15";
 
     /*
     var change_parent = function(elements, callback)

@@ -53,7 +53,7 @@ function GetByCount($count)
 {
     global $table;
 
-    $ret = R::find($table, '1 ORDER BY id LIMIT :count',
+    $ret = R::find($table, '1 ORDER BY id DESC LIMIT :count',
         array(':count' => $count));
     $result = array();
     foreach($ret as $r)

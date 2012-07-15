@@ -1,5 +1,6 @@
 (function()
 {
+    //var url = "http://localhost/color/color.php";
     var url = "http://ilovemycolor.sinaapp.com/color.php?limit=15";
 
     /*
